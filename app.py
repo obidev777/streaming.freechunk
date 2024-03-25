@@ -1,4 +1,4 @@
-from flask import FlaskApp , redirect
+from flask import Flask , redirect
 app = Flask(__name__)
 @app.route('/file/<id>')
 def file_id(id=None):
